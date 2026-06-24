@@ -22,10 +22,10 @@
   name,
   /// Prefix to #arg[name].
   /// -> str | content | symbol
-  l: sym.angle.l,
+  l: sym.chevron.l,
   /// Prefix to #arg[name].
   /// -> str | content | symbol
-  r: sym.angle.r,
+  r: sym.chevron.r,
 ) = styles.meta(name, l: l, r: r)
 
 

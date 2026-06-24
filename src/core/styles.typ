@@ -17,10 +17,10 @@
 
 
 // TODO: Use styles consistently
-#let arg = meta.with(l: sym.angle.l, r: sym.angle.r, kind: "arg")
+#let arg = meta.with(l: sym.chevron.l, r: sym.chevron.r, kind: "arg")
 
 
-#let sarg = meta.with(l: ".." + sym.angle.l, r: sym.angle.r, kind: "sarg")
+#let sarg = meta.with(l: ".." + sym.chevron.l, r: sym.chevron.r, kind: "sarg")
 
 
 #let barg = meta.with(l: sym.bracket.l, r: sym.bracket.r, kind: "barg")
